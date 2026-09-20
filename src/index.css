@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-surface text-ink antialiased;
+  font-family: 'Inter', 'Poppins', system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Poppins', 'Inter', system-ui, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+:focus-visible {
+  outline: 3px solid #2F80ED;
+  outline-offset: 2px;
+}
+
+a, button {
+  min-height: 0;
+}
+
+.container-page {
+  @apply max-w-content mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 bg-yellow text-navy font-semibold px-6 py-3 rounded-lg transition-all duration-200 min-h-[44px];
+}
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(255, 210, 31, 0.35);
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center gap-2 bg-white text-navy font-semibold px-6 py-3 rounded-lg border border-edge transition-all duration-200 min-h-[44px];
+}
+.btn-secondary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(18, 59, 112, 0.12);
+}
+
+.btn-outline-light {
+  @apply inline-flex items-center justify-center gap-2 bg-transparent text-white font-semibold px-6 py-3 rounded-lg border border-white/60 transition-all duration-200 min-h-[44px];
+}
+.btn-outline-light:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
