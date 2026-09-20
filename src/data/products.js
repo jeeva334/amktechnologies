@@ -15,7 +15,7 @@ const products = [
     name: 'Green Chalk Boards',
     category: 'classroom-boards',
     categoryLabel: 'Classroom Boards',
-    image: stockImage('chalkboard-classroom-1'),
+    image: "/images/green-chalk-board-home.jpg",
     gallery: [stockImage('chalkboard-classroom-2'), stockImage('chalkboard-classroom-3')],
     shortDescription: 'Durable green chalk boards built for everyday classroom use.',
     description:
@@ -42,7 +42,7 @@ const products = [
     name: 'White Marker Boards',
     category: 'classroom-boards',
     categoryLabel: 'Classroom Boards',
-    image: stockImage('whiteboard-classroom-1'),
+    image: "/images/white-marker-boards.jpg",
     gallery: [stockImage('whiteboard-classroom-2'), stockImage('whiteboard-classroom-3')],
     shortDescription: 'Smooth white marker boards for classrooms and meeting rooms.',
     description:
@@ -69,7 +69,7 @@ const products = [
     name: 'Notice Boards',
     category: 'classroom-boards',
     categoryLabel: 'Classroom Boards',
-    image: stockImage('notice-board-office-1'),
+    image: "/images/notice-board.jpg",
     gallery: [stockImage('notice-board-office-2'), stockImage('notice-board-office-3')],
     shortDescription: 'Pin-up notice boards for announcements and displays.',
     description:
@@ -94,7 +94,7 @@ const products = [
     name: 'Interactive Panels',
     category: 'smart-classroom',
     categoryLabel: 'Smart Classroom',
-    image: stockImage('interactive-panel-classroom-1'),
+    image: "/images/interactive-panels.jpg",
     gallery: [stockImage('interactive-panel-classroom-2'), stockImage('interactive-panel-classroom-3')],
     shortDescription: 'Touch-enabled interactive display panels for smart classrooms.',
     description:
@@ -121,7 +121,7 @@ const products = [
     name: 'LCD Projectors',
     category: 'projection-solutions',
     categoryLabel: 'Projection Solutions',
-    image: stockImage('lcd-projector-1'),
+    image: "/images/lcd-projectors.jpg",
     gallery: [
       stockImage('lcd-projector-2'),
       stockImage('lcd-projector-3'),
@@ -152,7 +152,7 @@ const products = [
     name: 'Projector Screens',
     category: 'projection-solutions',
     categoryLabel: 'Projection Solutions',
-    image: stockImage('projector-screen-1'),
+    image: "/images/projector-screens.jpg",
     gallery: [stockImage('projector-screen-2'), stockImage('projector-screen-3')],
     shortDescription: 'Wall and ceiling-mounted screens for sharp projection.',
     description:
@@ -177,7 +177,7 @@ const products = [
     name: 'Home Theatre',
     category: 'audio-accessories',
     categoryLabel: 'Audio & Accessories',
-    image: stockImage('speakers-audio-system-1'),
+    image: "/images/home-theaters.jpg",
     gallery: [stockImage('speakers-audio-system-2'), stockImage('speakers-audio-system-3')],
     shortDescription: 'Powerful audio systems for halls, events and classrooms.',
     description:
