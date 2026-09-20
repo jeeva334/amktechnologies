@@ -16,7 +16,11 @@ const products = [
     category: 'classroom-boards',
     categoryLabel: 'Classroom Boards',
     image: "/images/green-chalk-board-home.jpg",
-    gallery: [stockImage('chalkboard-classroom-2'), stockImage('chalkboard-classroom-3')],
+     gallery: [
+    'https://images.unsplash.com/photo-1554523449-209945dde0c7?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    'https://images.pexels.com/photos/8500343/pexels-photo-8500343.jpeg',
+  ],
+
     shortDescription: 'Durable green chalk boards built for everyday classroom use.',
     description:
       'Our green chalk boards are built for daily classroom writing with a smooth, glare-free surface and a sturdy aluminium frame. Suitable for schools, colleges and training rooms that rely on traditional chalk-based teaching.',
@@ -43,7 +47,7 @@ const products = [
     category: 'classroom-boards',
     categoryLabel: 'Classroom Boards',
     image: "/images/white-marker-boards.jpg",
-    gallery: [stockImage('whiteboard-classroom-2'), stockImage('whiteboard-classroom-3')],
+    gallery: ['https://images.pexels.com/photos/8423430/pexels-photo-8423430.jpeg', 'https://images.pexels.com/photos/10127243/pexels-photo-10127243.jpeg'],
     shortDescription: 'Smooth white marker boards for classrooms and meeting rooms.',
     description:
       'White marker boards from Sri Amman Technologies offer a clean, non-glare writing surface for classrooms, staff rooms and meeting spaces, with easy marker cleaning and a durable frame.',
@@ -70,7 +74,8 @@ const products = [
     category: 'classroom-boards',
     categoryLabel: 'Classroom Boards',
     image: "/images/notice-board.jpg",
-    gallery: [stockImage('notice-board-office-2'), stockImage('notice-board-office-3')],
+    gallery: ['https://images.openai.com/static-rsc-4/sF6JdIJVhq4ADLh_dB6C1n-Oor9__Ej76_jP_vf1JpdsZMnMxvcEaMdItcKL65Temq0g7USZ0M1uf-UlPoNhssflsQDZlauhbVfoXFIU3sr407Qzm_sjrUtS5kSlCNKUI2yjuU9uNEuKAUJ6HmN3lFm8PILu_0uG-lMqXUJ3X7k?purpose=inline',
+       'https://images.openai.com/static-rsc-4/5rJYkjQhi4EgoepHv7D0j-vOyxxg4M9X55Wjdnkaun1_2lIpAjqeuVTk7udcuVw2trbEGDTSrwLFwrK6IUPObmx4e1qNxQGojnQivGiZYws-ZW9rdRiBs3KnFCOOR65ugVFKsFaB9IvuZy9zx_iElrA_2DBgkN61h6etek1ooJ2_7LjaR17blHtT5Mica_wT?purpose=fullsize'],
     shortDescription: 'Pin-up notice boards for announcements and displays.',
     description:
       'Notice boards for schools, colleges and offices, ideal for displaying announcements, timetables and student information in a tidy, organised way.',
@@ -201,7 +206,7 @@ const products = [
     name: 'Reconditioned Projectors',
     category: 'projection-solutions',
     categoryLabel: 'Projection Solutions',
-    image: stockImage('reconditioned-projector-1'),
+    image: "/images/reconditioned-projector.jpg",
     gallery: [stockImage('reconditioned-projector-2'), stockImage('reconditioned-projector-3')],
     shortDescription: 'Quality-checked reconditioned projectors at affordable prices.',
     description:
@@ -225,7 +230,7 @@ const products = [
     name: 'Podiums',
     category: 'classroom-infrastructure',
     categoryLabel: 'Classroom Infrastructure',
-    image: stockImage('wooden-podium-1'),
+    image: "/images/podium.jpg",
     gallery: [stockImage('wooden-podium-2'), stockImage('wooden-podium-3')],
     shortDescription: 'Professional podiums for classrooms, halls and events.',
     description:
@@ -249,7 +254,7 @@ const products = [
     name: 'School Furniture',
     category: 'classroom-infrastructure',
     categoryLabel: 'Classroom Infrastructure',
-    image: stockImage('school-desks-furniture-1'),
+    image: "/images/school-furnitures.jpg",
     gallery: [stockImage('school-desks-furniture-2'), stockImage('school-desks-furniture-3')],
     shortDescription: 'Durable desks and benches for classrooms of every size.',
     description:
@@ -273,7 +278,7 @@ const products = [
     name: 'HDMI / VGA Cables',
     category: 'audio-accessories',
     categoryLabel: 'Audio & Accessories',
-    image: stockImage('hdmi-cables-1'),
+    image: "/images/hdmi-vga-cables.jpg",
     gallery: [stockImage('hdmi-cables-2'), stockImage('hdmi-cables-3')],
     shortDescription: 'Reliable connectivity cables and accessories.',
     description:

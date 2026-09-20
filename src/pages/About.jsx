@@ -45,7 +45,7 @@ export default function About() {
           </ScrollReveal>
           <ScrollReveal delay={0.1} className="order-1 lg:order-2 rounded-3xl overflow-hidden shadow-soft">
             <img
-              src={stockImage('about-our-story', 800, 640)}
+              src={"/images/about-us.jpg"}
               alt="Classroom with chalk board and furniture"
               className="w-full aspect-[5/4] object-cover"
             />

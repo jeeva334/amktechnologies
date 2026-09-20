@@ -142,9 +142,9 @@ export default function Home() {
         <div className="container-page grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <ScrollReveal className="rounded-3xl overflow-hidden shadow-soft">
             <img
-              src={stockImage('smart-classroom-solutions', 800, 640)}
+              src={"/images/complete-smart-classroom-infrastructure.jpg"}
               alt="Smart classroom with interactive panel and furniture"
-              className="w-full aspect-[5/4] object-cover"
+              className="w-full aspect-[6/4] object-cover"
             />
           </ScrollReveal>
           <ScrollReveal delay={0.1} className="flex flex-col gap-5">
