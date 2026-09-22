@@ -29,7 +29,7 @@ export default function BackToTop() {
       ref={btnRef}
       onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       aria-label="Back to top"
-      className="fixed z-40 bottom-24 right-4 sm:bottom-28 sm:right-8 w-11 h-11 rounded-full bg-navy text-white flex items-center justify-center shadow-soft opacity-0"
+      className="fixed z-40 bottom-6 left-1/2 -translate-x-1/2 w-11 h-11 rounded-full bg-navy text-white flex items-center justify-center shadow-soft opacity-0"
     >
       <ArrowUp size={20} />
     </button>
