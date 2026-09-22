@@ -60,11 +60,13 @@ export default function Navbar() {
   return (
     <header ref={navRef} className="sticky top-0 z-50 bg-white/95 backdrop-blur">
       <div
-        className={`container-page flex items-center justify-between transition-all duration-300 ${
-          scrolled ? 'py-2.5' : 'py-4'
-        }`}
-      >
-        <Logo compact={scrolled} />
+  className={`container-page w-full max-w-full min-w-0 flex items-center justify-between gap-2 transition-all duration-300 ${
+    scrolled ? 'py-2.5' : 'py-4'
+  }`}
+>
+        <div className="min-w-0 flex-1 overflow-hidden">
+  <Logo compact={scrolled} />
+</div>
 
         <nav className="hidden lg:flex items-center gap-1" aria-label="Main navigation">
           <NavLink to="/" end className={({ isActive }) => `${navItem} ${isActive ? activeNavItem : ''}`}>

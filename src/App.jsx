@@ -24,7 +24,7 @@ export default function App() {
     <div className="flex flex-col min-h-screen">
       <ScrollProgress />
       <ScrollToTop />
-      <TopBar />
+      {/* <TopBar /> */}
       <Navbar />
 
       <main className="flex-1">
