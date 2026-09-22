@@ -175,7 +175,7 @@ export default function Navbar() {
         </nav>
 
         <div className="flex items-center gap-2">
-          <Link to="/enquiry" className="hidden lg:inline-flex btn-primary !py-2.5 !px-5 text-sm">
+          <Link to="/enquiry" className="hidden lg:!inline-flex btn-primary !py-2.5 !px-5 text-sm">
             Get a Quote
           </Link>
           <button
