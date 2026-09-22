@@ -18,6 +18,7 @@ import Projects from './pages/Projects.jsx';
 import Contact from './pages/Contact.jsx';
 import Enquiry from './pages/Enquiry.jsx';
 import NotFound from './pages/NotFound.jsx';
+import CallButton from './components/CallButton.jsx';
 
 export default function App() {
   return (
@@ -45,6 +46,7 @@ export default function App() {
       </main>
 
       <Footer />
+      <CallButton/>
       <WhatsAppButton />
       <BackToTop />
     </div>
